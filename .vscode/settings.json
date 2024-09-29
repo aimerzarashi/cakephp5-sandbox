@@ -1,0 +1,30 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "postgres",
+      "database": "cake_cms",
+      "username": "my_user",
+      "password": "my_password"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "mysql",
+      "database": "cake_cms",
+      "username": "my_user",
+      "password": "my_password"
+    }
+  ],
+  "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+  "editor.formatOnSave": true
+}

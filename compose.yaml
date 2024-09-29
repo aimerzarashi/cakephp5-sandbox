@@ -1,0 +1,43 @@
+services:
+  php:
+    container_name: php
+    build:
+      context: .
+      dockerfile: ./php/Dockerfile
+    volumes:
+      - ./php/html/:/var/www/html/
+    env_file: ./php/.env
+    tty: true
+    ports:
+      - 80:80
+    environment:
+      - TZ=Asia/Tokyo
+    depends_on:
+      - postgres
+
+  postgres:
+    container_name: postgres
+    image: postgres:16.3
+    ports:
+      - 5432:5432
+    restart: always
+    environment:
+      POSTGRES_USER: my_user
+      POSTGRES_PASSWORD: my_password
+      POSTGRES_DB: cake_cms
+    volumes:
+      - ./postgres/data:/var/lib/postgresql/data
+
+  pgadmin:
+    container_name: pgadmin
+    image: dpage/pgadmin4:latest
+    restart: always
+    volumes:
+    - ./pgadmin:/var/lib/pgadmin
+    depends_on:
+    - postgres
+    ports:
+    - 5050:80
+    environment:
+      PGADMIN_DEFAULT_EMAIL: pgadmin@example.com
+      PGADMIN_DEFAULT_PASSWORD: admin
