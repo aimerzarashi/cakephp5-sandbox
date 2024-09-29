@@ -115,6 +115,14 @@ return [
             'duration' => '+1 years',
             'url' => env('CACHE_CAKECORE_URL', null),
         ],
+        '_cake_translations_' => [
+            'className' => FileEngine::class,
+            'prefix' => 'myapp_cake_translations_',
+            'path' => CACHE . 'translations' . DS,
+            'serialize' => true,
+            'duration' => '+1 years',
+            'url' => env('CACHE_CAKECORE_URL', null),
+        ],
 
         /*
          * Configure the cache for model and datasource caches. This cache
