@@ -66,18 +66,18 @@ msgstr ""
 #: ./templates/ServiceItems/edit.php:17
 #: ./templates/ServiceItems/view.php:13
 msgid "List Service Items"
-msgstr ""
+msgstr "サービス項目一覧"
 
 #: ./templates/ServiceItems/add.php:19
 msgid "Add Service Item"
-msgstr ""
+msgstr "サービス項目を追加する"
 
 #: ./templates/ServiceItems/add.php:26
 #: ./templates/ServiceItems/edit.php:31
 #: ./templates/Services/add.php:24
 #: ./templates/Services/edit.php:29
 msgid "Submit"
-msgstr ""
+msgstr "確定"
 
 #: ./templates/ServiceItems/edit.php:13
 #: ./templates/ServiceItems/index.php:35
@@ -85,7 +85,7 @@ msgstr ""
 #: ./templates/Services/index.php:33
 #: ./templates/Services/view.php:67
 msgid "Delete"
-msgstr ""
+msgstr "削除"
 
 #: ./templates/ServiceItems/edit.php:15
 #: ./templates/ServiceItems/index.php:35
@@ -100,48 +100,48 @@ msgstr ""
 #: ./templates/ServiceItems/edit.php:24
 #: ./templates/ServiceItems/view.php:11
 msgid "Edit Service Item"
-msgstr ""
+msgstr "サービス項目を編集する"
 
 #: ./templates/ServiceItems/index.php:8
 #: ./templates/ServiceItems/view.php:14
 msgid "New Service Item"
-msgstr ""
+msgstr "新しいサービス項目"
 
 #: ./templates/ServiceItems/index.php:9
 msgid "Service Items"
-msgstr ""
+msgstr "サービス項目"
 
 #: ./templates/ServiceItems/index.php:33
 #: ./templates/Services/index.php:31
 #: ./templates/Services/view.php:65
 msgid "View"
-msgstr ""
+msgstr "照会"
 
 #: ./templates/ServiceItems/index.php:34
 #: ./templates/Services/index.php:32
 #: ./templates/Services/view.php:66
 msgid "Edit"
-msgstr ""
+msgstr "編集"
 
 #: ./templates/ServiceItems/index.php:44
 #: ./templates/Services/index.php:42
 msgid "first"
-msgstr ""
+msgstr "最初"
 
 #: ./templates/ServiceItems/index.php:45
 #: ./templates/Services/index.php:43
 msgid "previous"
-msgstr ""
+msgstr "前へ"
 
 #: ./templates/ServiceItems/index.php:47
 #: ./templates/Services/index.php:45
 msgid "next"
-msgstr ""
+msgstr "次へ"
 
 #: ./templates/ServiceItems/index.php:48
 #: ./templates/Services/index.php:46
 msgid "last"
-msgstr ""
+msgstr "最後"
 
 #: ./templates/ServiceItems/index.php:50
 #: ./templates/Services/index.php:48
@@ -150,79 +150,79 @@ msgstr ""
 
 #: ./templates/ServiceItems/view.php:12
 msgid "Delete Service Item"
-msgstr ""
+msgstr "サービス項目を削除する"
 
 #: ./templates/ServiceItems/view.php:22
 #: ./templates/Services/view.php:22
 #: ./templates/Services/view.php:48
 msgid "Id"
-msgstr ""
+msgstr "ID"
 
 #: ./templates/ServiceItems/view.php:26
 #: ./templates/Services/view.php:26
 #: ./templates/Services/view.php:49
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #: ./templates/ServiceItems/view.php:30
 #: ./templates/Services/view.php:30
 #: ./templates/Services/view.php:50
 msgid "Code"
-msgstr ""
+msgstr "コード"
 
 #: ./templates/ServiceItems/view.php:34
 msgid "Service"
-msgstr ""
+msgstr "サービス"
 
 #: ./templates/ServiceItems/view.php:38
 #: ./templates/Services/view.php:34
 #: ./templates/Services/view.php:52
 msgid "Created"
-msgstr ""
+msgstr "登録"
 
 #: ./templates/ServiceItems/view.php:42
 #: ./templates/Services/view.php:38
 #: ./templates/Services/view.php:53
 msgid "Modified"
-msgstr ""
+msgstr "更新"
 
 #: ./templates/Services/add.php:11
 #: ./templates/Services/edit.php:16
 #: ./templates/Services/view.php:13
 msgid "List Services"
-msgstr ""
+msgstr "サービス一覧"
 
 #: ./templates/Services/add.php:18
 msgid "Add Service"
-msgstr ""
+msgstr "サービスを追加する"
 
 #: ./templates/Services/edit.php:23
 #: ./templates/Services/view.php:11
 msgid "Edit Service"
-msgstr ""
+msgstr "サービスを編集する"
 
 #: ./templates/Services/index.php:8
 #: ./templates/Services/view.php:14
 msgid "New Service"
-msgstr ""
+msgstr "新しいサービス"
 
 #: ./templates/Services/index.php:9
 msgid "Services"
-msgstr ""
+msgstr "サービス"
 
 #: ./templates/Services/view.php:12
 msgid "Delete Service"
-msgstr ""
+msgstr "サービスを削除する"
 
 #: ./templates/Services/view.php:43
 msgid "Related Service Items"
-msgstr ""
+msgstr "関連するサービス項目"
 
 #: ./templates/Services/view.php:51
 msgid "Service Id"
-msgstr ""
+msgstr "サービスID"
 
 #: ./templates/layout/error.php:36
 msgid "Back"
-msgstr ""
+msgstr "戻る"
 
