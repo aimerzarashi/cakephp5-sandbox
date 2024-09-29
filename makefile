@@ -22,11 +22,7 @@ migrations:
 .PHONY: bake
 bake:
 	docker compose exec php bin/cake bake all -f Services
-	docker compose exec php bin/cake bake all -f Clinics
 	docker compose exec php bin/cake bake all -f ServiceItems
-	docker compose exec php bin/cake bake all -f ClinicServices
-	docker compose exec php bin/cake bake all -f ClinicServiceItems
-	docker compose exec php bin/cake bake all -f ClinicServiceItemPeriods
 	docker compose exec php bin/cake cache clear_all
 	make permissions
 
